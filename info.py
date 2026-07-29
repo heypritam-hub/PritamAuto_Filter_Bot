@@ -75,7 +75,7 @@ STAR_PREMIUM_PLANS = {
 # ============================
 # MongoDB Configuration
 # ============================
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://gouravbolange_db_user:yos9d73FCsyLpiI6@cluster0.wxnzgc0.mongodb.net/?retryWrites=true&w=majority&autobot=Cluster0")  # MongoDB URI for the database
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://pritamfilterbotuser:vnBkk4NClIjnukER@cluster0.kssqaye.mongodb.net/?appName=Cluster0")  # MongoDB URI for the database
 DATABASE_NAME = environ.get('DATABASE_NAME', "autobot") # Database name (default: cluster)
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Pixell_Pulse') # Collection name (default: dreamcinezone_files)
 
